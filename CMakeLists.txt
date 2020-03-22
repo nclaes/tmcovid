@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(tmcovid)
+add_executable(tmcovid main3.cpp)
+#add_executable(tmcovid main2.cpp)
+#add_executable(tmcovid main.cpp)

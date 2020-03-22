@@ -1,0 +1,3 @@
+/home/peter/Documents/github/tmcovid/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/peter/Documents/github/tmcovid/cmake-build-debug/CMakeFiles/tmcovid.dir
+/home/peter/Documents/github/tmcovid/cmake-build-debug/CMakeFiles/edit_cache.dir
