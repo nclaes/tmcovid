@@ -25,7 +25,7 @@ short co_inpact = 0;
 
 short threthold_point[4] = {7, 12, 18, 22};
 
-short size_datapoint = 2000;
+short size_datapoint = 1;
 short seed = 300;
 
 void welcome_screen() {
@@ -43,45 +43,24 @@ int bin_convert(short val, short size) {
     for (short c = size - 1; c >= 0; c--) {
         k = val >> c;
         if (k & 1)
-            printf("1");
+            printf("1 ");
+
         else
-            printf("0");
+            printf("0 ");
     }
-    printf(" ");
 
 }
 
-int main() {
-//    welcome_screen();
-//    printf("Enter a random number: ");
-//    scanf("%d", &seed);
-//    printf("Enter your how many datapoints: ");
-//    scanf("%d", &size_datapoint);
-//    printf("===================================================== \n");
-//    printf("\n");
+int bin_gen() {
 
-    for (int j = 0; j < size_datapoint; ++j) {
-        for (int i = 0; i < seed; ++i) {
-            age_own = rand() % (4) + 1;
-            hel_cod = rand() % (4) + 1;
-            job_own = rand() % (3) + 1;
-            atc_idx = rand() % (5) + 1;
-            sto_ckk = rand() % (2) + 1;
-        }
-//        printf("Sub Type: age_own, hel_cod, job_own, atc_idx, sto_ckk\n");
-//        printf("\t\t\t\t%d ", age_own);
-//        printf("\t\t%d ", hel_cod);
-//        printf("\t\t%d ", job_own);
-//        printf("\t\t%d ", atc_idx);
-//        printf("\t\t%d \n", sto_ckk);
-        age_own_point_subtotal = age_own_point[age_own - 1];
-        hel_cod_point_subtotal = hel_cod_point[hel_cod - 1];
-        job_own_point_subtotal = job_own_point[job_own - 1];
-        atc_idx_point_subtotal = atc_idx_point[atc_idx - 1];
-        sto_ckk_point_subtotal = sto_ckk_point[sto_ckk - 1];
-        point_total =
-                age_own_point_subtotal + hel_cod_point_subtotal + job_own_point_subtotal + atc_idx_point_subtotal +
-                sto_ckk_point_subtotal;
+    age_own_point_subtotal = age_own_point[age_own - 1];
+    hel_cod_point_subtotal = hel_cod_point[hel_cod - 1];
+    job_own_point_subtotal = job_own_point[job_own - 1];
+    atc_idx_point_subtotal = atc_idx_point[atc_idx - 1];
+    sto_ckk_point_subtotal = sto_ckk_point[sto_ckk - 1];
+    point_total =
+            age_own_point_subtotal + hel_cod_point_subtotal + job_own_point_subtotal + atc_idx_point_subtotal +
+            sto_ckk_point_subtotal;
 //        printf("%d ", age_own_point_subtotal);
 //        printf("%d ", hel_cod_point_subtotal);
 //        printf("%d ", job_own_point_subtotal);
@@ -95,11 +74,11 @@ int main() {
 //        printf("\t\t%d \n", sto_ckk_point_subtotal);
 //        printf("Total points: %d \n", point_total);
 
-        if (inRange(point_total, 0, threthold_point[0])) co_inpact = 1;
-        else if (inRange(point_total, threthold_point[0] + 1, threthold_point[1])) co_inpact = 2;
-        else if (inRange(point_total, threthold_point[1] + 1, threthold_point[2])) co_inpact = 3;
-        else if (inRange(point_total, threthold_point[2] + 1, threthold_point[3])) co_inpact = 4;
-        else if (inRange(point_total, threthold_point[3] + 1, 99)) co_inpact = 5;
+    if (inRange(point_total, 0, threthold_point[0])) co_inpact = 1;
+    else if (inRange(point_total, threthold_point[0] + 1, threthold_point[1])) co_inpact = 2;
+    else if (inRange(point_total, threthold_point[1] + 1, threthold_point[2])) co_inpact = 3;
+    else if (inRange(point_total, threthold_point[2] + 1, threthold_point[3])) co_inpact = 4;
+    else if (inRange(point_total, threthold_point[3] + 1, 99)) co_inpact = 5;
 
 //        FILE *fp;
 //        fp = fopen("test.txt", "w+");
@@ -110,25 +89,55 @@ int main() {
 //
 //        printf("Binarized datapoint: age_own, hel_cod, job_own,  atc_idx,  sto_ckk, co_inpact \n");
 //        printf("\t\t\t\t\t");
-        bin_convert(age_own, 3);
+    bin_convert(age_own, 3);
 //        printf("\t");
-        bin_convert(hel_cod, 3);
+    bin_convert(hel_cod, 3);
 //        printf("\t");
-        bin_convert(job_own, 2);
+    bin_convert(job_own, 2);
 //        printf("\t");
-        bin_convert(atc_idx, 3);
+    bin_convert(atc_idx, 3);
 //        printf("\t");
-        bin_convert(sto_ckk, 2);
+    bin_convert(sto_ckk, 2);
 //        printf("\t");
-        bin_convert(co_inpact, 3);
+    bin_convert(co_inpact, 3);
+//    printf("%d",co_inpact);
+//
 //        printf("\n");
 //        printf("------------------------------------\n");
-        printf("\n");
+    printf("\n");
+}
 
+
+int main() {
+//    welcome_screen();
+//    printf("Enter a random number: ");
+//    scanf("%d", &seed);
+//    printf("Enter your how many datapoints: ");
+//    scanf("%d", &size_datapoint);
+//    printf("===================================================== \n");
+//    printf("\n");
+    age_own = 1;// 4
+    hel_cod = 1;// 4
+    job_own = 1;// 3
+    atc_idx = 1;// 5
+    sto_ckk = 1;// 2
+
+//    bin_gen();
+    for (age_own = 1; age_own < 4 + 1; ++age_own) {
+//        bin_gen();
+        for (hel_cod = 1; hel_cod < 4 + 1; ++hel_cod) {
+//            bin_gen();
+            for (job_own = 1; job_own < 3 + 1; ++job_own) {
+//                bin_gen();
+                for (atc_idx = 1; atc_idx < 5 + 1; ++atc_idx) {
+//                    bin_gen();
+                    for (sto_ckk = 1; sto_ckk < 2 + 1; ++sto_ckk) {
+                        bin_gen();
+                    }
+                }
+            }
+        }
     }
-
-
-    return 0;
 }
 
 

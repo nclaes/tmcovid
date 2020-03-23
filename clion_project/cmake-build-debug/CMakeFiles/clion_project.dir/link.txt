@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/clion_project.dir/main.cpp.o  -o clion_project 
+/usr/bin/c++  -g   CMakeFiles/clion_project.dir/main2.cpp.o  -o clion_project 
