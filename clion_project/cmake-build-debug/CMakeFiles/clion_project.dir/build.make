@@ -57,27 +57,27 @@ include CMakeFiles/clion_project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clion_project.dir/flags.make
 
-CMakeFiles/clion_project.dir/main2.cpp.o: CMakeFiles/clion_project.dir/flags.make
-CMakeFiles/clion_project.dir/main2.cpp.o: ../main2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/Documents/github/tmcovid/clion_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clion_project.dir/main2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clion_project.dir/main2.cpp.o -c /home/peter/Documents/github/tmcovid/clion_project/main2.cpp
+CMakeFiles/clion_project.dir/main4.cpp.o: CMakeFiles/clion_project.dir/flags.make
+CMakeFiles/clion_project.dir/main4.cpp.o: ../main4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/Documents/github/tmcovid/clion_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clion_project.dir/main4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clion_project.dir/main4.cpp.o -c /home/peter/Documents/github/tmcovid/clion_project/main4.cpp
 
-CMakeFiles/clion_project.dir/main2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clion_project.dir/main2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peter/Documents/github/tmcovid/clion_project/main2.cpp > CMakeFiles/clion_project.dir/main2.cpp.i
+CMakeFiles/clion_project.dir/main4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clion_project.dir/main4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peter/Documents/github/tmcovid/clion_project/main4.cpp > CMakeFiles/clion_project.dir/main4.cpp.i
 
-CMakeFiles/clion_project.dir/main2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clion_project.dir/main2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peter/Documents/github/tmcovid/clion_project/main2.cpp -o CMakeFiles/clion_project.dir/main2.cpp.s
+CMakeFiles/clion_project.dir/main4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clion_project.dir/main4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peter/Documents/github/tmcovid/clion_project/main4.cpp -o CMakeFiles/clion_project.dir/main4.cpp.s
 
 # Object files for target clion_project
 clion_project_OBJECTS = \
-"CMakeFiles/clion_project.dir/main2.cpp.o"
+"CMakeFiles/clion_project.dir/main4.cpp.o"
 
 # External object files for target clion_project
 clion_project_EXTERNAL_OBJECTS =
 
-clion_project: CMakeFiles/clion_project.dir/main2.cpp.o
+clion_project: CMakeFiles/clion_project.dir/main4.cpp.o
 clion_project: CMakeFiles/clion_project.dir/build.make
 clion_project: CMakeFiles/clion_project.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/peter/Documents/github/tmcovid/clion_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable clion_project"

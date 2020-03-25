@@ -123,32 +123,32 @@ clion_project/fast:
 	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/build
 .PHONY : clion_project/fast
 
-main2.o: main2.cpp.o
+main4.o: main4.cpp.o
 
-.PHONY : main2.o
+.PHONY : main4.o
 
 # target to build an object file
-main2.cpp.o:
-	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main2.cpp.o
-.PHONY : main2.cpp.o
+main4.cpp.o:
+	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main4.cpp.o
+.PHONY : main4.cpp.o
 
-main2.i: main2.cpp.i
+main4.i: main4.cpp.i
 
-.PHONY : main2.i
+.PHONY : main4.i
 
 # target to preprocess a source file
-main2.cpp.i:
-	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main2.cpp.i
-.PHONY : main2.cpp.i
+main4.cpp.i:
+	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main4.cpp.i
+.PHONY : main4.cpp.i
 
-main2.s: main2.cpp.s
+main4.s: main4.cpp.s
 
-.PHONY : main2.s
+.PHONY : main4.s
 
 # target to generate assembly for a file
-main2.cpp.s:
-	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main2.cpp.s
-.PHONY : main2.cpp.s
+main4.cpp.s:
+	$(MAKE) -f CMakeFiles/clion_project.dir/build.make CMakeFiles/clion_project.dir/main4.cpp.s
+.PHONY : main4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... clion_project"
 	@echo "... edit_cache"
-	@echo "... main2.o"
-	@echo "... main2.i"
-	@echo "... main2.s"
+	@echo "... main4.o"
+	@echo "... main4.i"
+	@echo "... main4.s"
 .PHONY : help
 
 

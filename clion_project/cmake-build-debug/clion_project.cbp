@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/peter/Documents/github/tmcovid/clion_project/main2.cpp">
+		<Unit filename="/home/peter/Documents/github/tmcovid/clion_project/main4.cpp">
 			<Option target="clion_project"/>
 		</Unit>
 		<Unit filename="/home/peter/Documents/github/tmcovid/clion_project/CMakeLists.txt">

@@ -43,7 +43,7 @@ number_of_clauses = int(c)
 states = int(state)
 
 # Parameters of the pattern recognition problem
-number_of_features = 11
+number_of_features = 13
 number_of_classes = 5
 
 # Training configuration
@@ -61,11 +61,11 @@ for ensemble in xrange(ensemble_size):
 
 	np.random.shuffle(data)
 
-	X_training = data[:int(data.shape[0]*0.8),0:11] # Input features
-	y_training = data[:int(data.shape[0]*0.8),11] # Target value
+	X_training = data[:int(data.shape[0]*0.8),0:13] # Input features
+	y_training = data[:int(data.shape[0]*0.8),13] # Target value
 
-	X_test = data[int(data.shape[0]*0.8):,0:11] # Input features
-	y_test = data[int(data.shape[0]*0.8):,11] # Target value
+	X_test = data[int(data.shape[0]*0.8):,0:13] # Input features
+	y_test = data[int(data.shape[0]*0.8):,13] # Target value
 
 	# This is a multiclass variant of the Tsetlin Machine, capable of distinguishing between multiple classes
 	tsetlin_machine = MultiClassTsetlinMachine.MultiClassTsetlinMachine(number_of_classes, number_of_clauses, number_of_features, states, s, T, boost_true_positive_feedback = 1)
