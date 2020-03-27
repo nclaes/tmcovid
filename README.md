@@ -54,8 +54,8 @@ Based on these early finding, each input may have different weight in forming th
 
 If the circumstance of the person fit into a sub-type of the inputs, the corresponding point will be generated. If the total point exceeded certain threshold, the probability can be calculated. 
 
-<!-- ![points](points.png) -->
-<img src="points.png" width = "600" align="middle" >
+<!-- ![points](points.PNG) -->
+<img src="points.PNG" width = "600" align="middle" >
 
 The table shows the details of the point system in order to generate outputs.
 
