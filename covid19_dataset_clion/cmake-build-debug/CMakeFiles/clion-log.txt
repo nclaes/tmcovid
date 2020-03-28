@@ -1,11 +1,4 @@
 C:\Users\peter\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion
--- The CXX compiler identification is GNU 9.3.0
--- Check for working CXX compiler: /usr/bin/c++.exe
--- Check for working CXX compiler: /usr/bin/c++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug
