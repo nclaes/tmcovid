@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="covid19_dataset_clion" targetName="covid19_dataset_clion" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bf85f16-debe-4239-91b6-ee5e7af2b39a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZleXfryAnAKTrqpVGauAzQzEp7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\Documents\github\tmcovid\covid19_dataset_clion" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="covid19_dataset_clion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="covid19_dataset_clion" TARGET_NAME="covid19_dataset_clion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="covid19_dataset_clion" RUN_TARGET_NAME="covid19_dataset_clion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bf85f16-debe-4239-91b6-ee5e7af2b39a" name="Default Changelist" comment="" />
+      <created>1585418148295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585418148295</updated>
+      <workItem from="1585418149873" duration="257000" />
+      <workItem from="1585419136262" duration="29000" />
+      <workItem from="1585419195372" duration="1908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="510" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585418306959">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="510" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585418306959" />
+    <state width="949" height="318" key="GridCell.Tab.0.bottom" timestamp="1585420741854">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state width="949" height="318" key="GridCell.Tab.0.bottom/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585420741854" />
+    <state width="949" height="318" key="GridCell.Tab.0.center" timestamp="1585420741854">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state width="949" height="318" key="GridCell.Tab.0.center/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585420741854" />
+    <state width="949" height="318" key="GridCell.Tab.0.left" timestamp="1585420741854">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state width="949" height="318" key="GridCell.Tab.0.left/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585420741854" />
+    <state width="949" height="318" key="GridCell.Tab.0.right" timestamp="1585420741854">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state width="949" height="318" key="GridCell.Tab.0.right/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585420741854" />
+    <state x="566" y="222" key="SettingsEditor" timestamp="1585418398992">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="566" y="222" key="SettingsEditor/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585418398992" />
+    <state x="763" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1585419136619">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="763" y="404" key="com.intellij.ide.util.TipDialog/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585419136619" />
+  </component>
+</project>

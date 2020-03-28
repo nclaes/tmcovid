@@ -1,0 +1,58 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c++: fatal error: '-fuse-linker-plugin', but cyglto_plugin.dll not found
+compilation terminated.
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_c596b/fast && /usr/bin/make -f CMakeFiles/cmTC_c596b.dir/build.make CMakeFiles/cmTC_c596b.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c596b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_c596b.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c596b.exe
+/cygdrive/c/Users/peter/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c596b.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_c596b.dir/testCXXCompiler.cxx.o  -o cmTC_c596b.exe -Wl,--out-implib,libcmTC_c596b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+c++: fatal error: '-fuse-linker-plugin', but cyglto_plugin.dll not found
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_c596b.dir/build.make:87: cmTC_c596b.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c596b/fast] Error 2
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c++: fatal error: '-fuse-linker-plugin', but cyglto_plugin.dll not found
+compilation terminated.
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_86555/fast && /usr/bin/make -f CMakeFiles/cmTC_86555.dir/build.make CMakeFiles/cmTC_86555.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86555.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_86555.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_86555.exe
+/cygdrive/c/Users/peter/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_86555.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_86555.dir/testCXXCompiler.cxx.o  -o cmTC_86555.exe -Wl,--out-implib,libcmTC_86555.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+c++: fatal error: '-fuse-linker-plugin', but cyglto_plugin.dll not found
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_86555.dir/build.make:87: cmTC_86555.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_86555/fast] Error 2
+
+
+
