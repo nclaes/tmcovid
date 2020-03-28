@@ -90,15 +90,15 @@ int bin_gen() {
 //        printf("Binarized datapoint: age_own, hel_cod, job_own,  atc_idx,  sto_ckk, co_inpact \n");
 //        printf("\t\t\t\t\t");
     bin_convert(age_own, 3);
-        printf("\t");
+//        printf("\t");
     bin_convert(hel_cod, 3);
-        printf("\t");
+//        printf("\t");
     bin_convert(job_own, 2);
-        printf("\t");
+//        printf("\t");
     bin_convert(atc_idx, 3);
-        printf("\t");
+//        printf("\t");
     bin_convert(sto_ckk, 2);
-        printf("\t");
+//        printf("\t");
 //    bin_convert(co_inpact, 2);
     printf("%d", co_inpact);
 
