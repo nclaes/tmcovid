@@ -99,8 +99,8 @@ int bin_gen() {
         printf("\t");
     bin_convert(sto_ckk, 2);
         printf("\t");
-    bin_convert(co_inpact, 2);
-//    printf("%d", co_inpact);
+//    bin_convert(co_inpact, 2);
+    printf("%d", co_inpact);
 
 //        printf("\n");
 //        printf("------------------------------------\n");
