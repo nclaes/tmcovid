@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf85f16-debe-4239-91b6-ee5e7af2b39a" name="Default Changelist" comment="" />
+    <list default="true" id="7bf85f16-debe-4239-91b6-ee5e7af2b39a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main6.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,7 +64,8 @@
       <updated>1585418148295</updated>
       <workItem from="1585418149873" duration="257000" />
       <workItem from="1585419136262" duration="29000" />
-      <workItem from="1585419195372" duration="4971000" />
+      <workItem from="1585419195372" duration="6153000" />
+      <workItem from="1585481207748" duration="323000" />
     </task>
     <servers />
   </component>
@@ -69,10 +73,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="577" y="283" key="#Notifications" timestamp="1585481293807">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="577" y="283" key="#Notifications/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585481293807" />
     <state x="510" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585418306959">
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
     <state x="510" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585418306959" />
+    <state x="835" y="334" key="FileChooserDialogImpl" timestamp="1585477221644">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="835" y="334" key="FileChooserDialogImpl/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585477221644" />
     <state width="1342" height="318" key="GridCell.Tab.0.bottom" timestamp="1585424215268">
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
@@ -89,13 +101,17 @@
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
     <state width="1342" height="318" key="GridCell.Tab.0.right/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585424215268" />
-    <state x="566" y="222" key="SettingsEditor" timestamp="1585418398992">
+    <state x="566" y="222" key="SettingsEditor" timestamp="1585479215869">
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
-    <state x="566" y="222" key="SettingsEditor/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585418398992" />
-    <state x="763" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1585419136619">
+    <state x="566" y="222" key="SettingsEditor/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585479215869" />
+    <state x="577" y="357" key="Vcs.Push.Dialog.v2" timestamp="1585481590642">
       <screen x="62" y="0" width="1986" height="1152" />
     </state>
-    <state x="763" y="404" key="com.intellij.ide.util.TipDialog/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585419136619" />
+    <state x="577" y="357" key="Vcs.Push.Dialog.v2/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585481590642" />
+    <state x="763" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1585481209964">
+      <screen x="62" y="0" width="1986" height="1152" />
+    </state>
+    <state x="763" y="404" key="com.intellij.ide.util.TipDialog/2638.645.1842.1080/62.0.1986.1152@62.0.1986.1152" timestamp="1585481209964" />
   </component>
 </project>

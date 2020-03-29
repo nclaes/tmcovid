@@ -100,11 +100,12 @@ int bin_gen() {
     bin_convert(sto_ckk, 2);
 //        printf("\t");
 //    bin_convert(co_inpact, 2);
+
     printf("%d", co_inpact);
+    printf("\n");
 
 //        printf("\n");
 //        printf("------------------------------------\n");
-    printf("\n");
 }
 
 
