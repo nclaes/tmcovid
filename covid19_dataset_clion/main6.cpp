@@ -1,7 +1,9 @@
 //
 // Created by root on 22/03/2020.
 // change the arch of dataset creation for set B
+// set B means: 5 inputs 1 outputs, digitalised data start from 0
 // binearzed data
+
 
 
 #include <stdio.h>
@@ -22,6 +24,7 @@ short atc_idx_point_subtotal = 0;
 short sto_ckk_point_subtotal = 0;
 short point_total = 0;
 short co_inpact = 0;
+
 // how does covid affect your health
 
 short threthold_point[4] = {14, 19, 26};
