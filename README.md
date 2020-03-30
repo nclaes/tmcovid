@@ -11,6 +11,10 @@ The remark B means: 5 inputs with 1 outputs
 ## The Forming of Dataset
 
 ### --- Inputs and Outputs --- 
+
+**The corresponding dataset are the txt file with remark "B"
+**
+
 There are 5 types of inputs: 
 
 1) age, 
