@@ -1,7 +1,13 @@
 # tmcovid
 Using Tsetlin Machine to Model Social Distancing and its Impact on Spreading COVID-19
 
+---
+## Remark on /dataset
+The remark A means: 6 inputs with 1 output
 
+The remark B means: 5 inputs with 1 outputs
+
+---
 ## The Forming of Dataset
 
 ### --- Inputs and Outputs --- 
