@@ -77,7 +77,7 @@ Another example, a person in his 20s with healthy body, no job at the moment, go
 The point of this person can be calculated as 1 + 1 + 1 + 1 + 3 + 12 = 19, thus this person more likely to be infected by COVID-19 with negative impact to this person's life. 
 
 
-## pythonTM
+## pythonTM (BROKEN)
 usage: 
 ```
  python COVID19_00.py --state 50 --c 50 --s 1.2 --t 2 --e 1
