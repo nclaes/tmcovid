@@ -123,32 +123,32 @@ covid19_dataset_clion/fast:
 	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/build
 .PHONY : covid19_dataset_clion/fast
 
-main6.o: main6.cpp.o
+main7.o: main7.cpp.o
 
-.PHONY : main6.o
+.PHONY : main7.o
 
 # target to build an object file
-main6.cpp.o:
-	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main6.cpp.o
-.PHONY : main6.cpp.o
+main7.cpp.o:
+	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main7.cpp.o
+.PHONY : main7.cpp.o
 
-main6.i: main6.cpp.i
+main7.i: main7.cpp.i
 
-.PHONY : main6.i
+.PHONY : main7.i
 
 # target to preprocess a source file
-main6.cpp.i:
-	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main6.cpp.i
-.PHONY : main6.cpp.i
+main7.cpp.i:
+	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main7.cpp.i
+.PHONY : main7.cpp.i
 
-main6.s: main6.cpp.s
+main7.s: main7.cpp.s
 
-.PHONY : main6.s
+.PHONY : main7.s
 
 # target to generate assembly for a file
-main6.cpp.s:
-	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main6.cpp.s
-.PHONY : main6.cpp.s
+main7.cpp.s:
+	$(MAKE) -f CMakeFiles/covid19_dataset_clion.dir/build.make CMakeFiles/covid19_dataset_clion.dir/main7.cpp.s
+.PHONY : main7.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... covid19_dataset_clion"
 	@echo "... edit_cache"
-	@echo "... main6.o"
-	@echo "... main6.i"
-	@echo "... main6.s"
+	@echo "... main7.o"
+	@echo "... main7.i"
+	@echo "... main7.s"
 .PHONY : help
 
 

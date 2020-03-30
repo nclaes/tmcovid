@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/main6.cpp
+/cygdrive/c/Users/peter/Documents/github/tmcovid/covid19_dataset_clion/main7.cpp
 stdio.h
 -
 stdlib.h
+-
+iostream
 -
 
