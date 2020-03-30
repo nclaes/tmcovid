@@ -3,4 +3,4 @@ project(covid19_dataset_clion)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(covid19_dataset_clion  main7.cpp)
+add_executable(covid19_dataset_clion  main5.cpp)
